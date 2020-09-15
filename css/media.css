@@ -1,0 +1,48 @@
+@media(max-width:1000px) {
+   header .container {
+      flex-direction: column;
+      padding-top: 15px;
+   }
+   nav {
+      margin-top: 60px;
+      width: 100%;
+   }
+   nav li {
+      flex-grow: 1;
+
+   }
+   nav a {
+      text-align: center;
+      padding: 51px 0;
+   }
+}
+
+@media(max-width:800px) {
+   .mini-menu {
+      display: block;
+      background: var(--green);
+      width: 100%;
+      padding: 20px 0;
+      border: none;
+      cursor: pointer;
+      color: var(--white);
+      font-size: 18px;
+      text-transform: uppercase;
+      font-weight: 900;
+      outline: none;
+   }
+   nav ul {
+      flex-direction: column;
+      display: none;
+   }
+   nav a {
+      padding: 20px 0;
+      background: var(--green);
+      color: var(--white);
+      border-top: 2px solid var(--white);
+   }
+   nav a:hover {
+      background: rgba(89, 196, 90, 0.6);
+      color: var(--grey);
+   }
+}

@@ -1,0 +1,80 @@
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+html {
+   --green: #59c45a;
+   --white: #fff;
+   --grey: #474747;
+   --darkgray: #3c3c3c;
+   --lightgrey: #959595;
+   --wrapWidch: 1920px;
+   --contWidch: 1200px;
+}
+body {
+   background: var(--white);
+   font-family: 'Lato';
+}
+.wrapper {
+   max-width: var(--wrapWidch);
+   margin: 0 auto;
+}
+.container {
+   max-width: var(--contWidch);
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   padding: 0 15px;
+}
+.logo {
+   text-decoration: none;
+   text-transform: uppercase;
+   color: var(--green);
+   font-weight: bold;
+   font-size: 28px;
+   display: block;
+   padding: 12px 21px;
+   border: 2px solid #b7b7b7b7;
+   position: relative;
+}
+.logo::after {
+   content: "travel";
+   text-transform: uppercase;
+   font-size: 18px;
+   color: var(--green);
+   font-weight: normal;
+   padding: 0 15px;
+   background: var(--white);
+   position: absolute;
+   top: 45px;
+   left: 40px;
+}
+nav ul {
+   list-style: none;
+   display: flex;
+   margin: 0;
+   padding: 0;
+}
+nav a {
+   display: block;
+   text-decoration: none;
+   text-transform: uppercase;
+   color: var(--grey);
+   padding: 52px 23px;
+   font-size: 18px;
+   transition: .3s;
+   font-weight: 900;
+}
+nav a:hover {
+   color: var(--white);
+   background: var(--green);
+}
+header .container {
+   align-items: center;
+   height: 124px;
+}
+.mini-menu {
+   display: none;
+}

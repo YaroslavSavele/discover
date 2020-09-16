@@ -78,3 +78,43 @@ header .container {
 .mini-menu {
    display: none;
 }
+
+/*Header style end*/
+
+/*Home style start*/
+.home {
+   min-height: 915px;
+   background: url(../img/bg-home.jpg) center/cover fixed;
+}
+.container {
+}
+.home-container {
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   min-height: inherit;
+   text-align: center;
+}
+.home-title {
+   margin: 0;
+   color: var(--white);
+   text-transform: uppercase;
+   font-size: 68px;
+}
+.home-text {
+   color: var(--white);
+   max-width: 1000px;
+   margin: 50px auto 90px;
+   font-size: 22px;
+   line-height: 38px;
+}
+
+.home-link {
+   text-decoration: none;
+   text-transform: uppercase;
+   background: var(--green);
+   color: var(--white);
+   font-size: 26px;
+   padding: 25px 40px;
+   border-radius: 5px;
+}

@@ -118,3 +118,74 @@ header .container {
    padding: 25px 40px;
    border-radius: 5px;
 }
+/*Home style end*/
+
+/*Favorable style start*/
+
+.favorable {
+   padding: 100px 0 70px;
+}
+.section-title {
+   text-align: center;
+   text-transform: uppercase;
+   color: var(--green);
+   font-size: 28px;
+   font-weight: 400;
+   position: relative;
+}
+.section-title::before {
+   content: "";
+   display: block;
+   width: 150px;
+   height: 1px;
+   background: #c2c2c2;
+   position: absolute;
+   top: 40px;
+   left: 50%;
+   transform: translateX(-75px);
+}
+.section-title::after {
+   content: "";
+   display: block;
+   width: 50px;
+   height: 3px;
+   background: var(--green);
+   position: absolute;
+   top: 39px;
+   left: 50%;
+   transform: translateX(-25px);
+}
+.container {
+}
+.fav-container {
+   flex-wrap: wrap;
+   margin-top: 60px;
+}
+.fav-item {
+   width: 50%;
+   display: flex;
+   align-items: flex-start;
+   margin: 0 0px 30px 0px;
+}
+.fav-img {
+   width: 50%;
+   margin-right: 30px;
+}
+.fav-text {
+   width: 280px;
+   padding-right: 30px;
+}
+.fav-text h6 {
+   /*width: 280px;  */
+   margin: 5px 0 10px;
+   font-size: 15px;
+   line-height: 20px;
+   letter-spacing: -1px;
+   color: var(--darkgray);
+}
+.fav-text p {
+   font-size: 14px;
+   line-height: 22px;
+   text-align: justify;
+   color: var(--lightgrey);
+}

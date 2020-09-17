@@ -1,3 +1,21 @@
+@media(max-width:1200px) {
+   .service {
+      flex-direction: column;
+   }
+   .service-slider,
+   .service-block {
+      width: 100%;
+   }
+   .service-slider {
+      height: 280px;
+   }
+   .slide img {
+      width: 100%;
+      object-fit: cover;
+      object-position: bottom;
+   }
+}
+
 @media(max-width:1000px) {
    header .container {
       flex-direction: column;
@@ -78,6 +96,9 @@
       padding-right: 0;
       /*margin-bottom: 100px;*/
    }
+   .service-item {
+      width: 100%;
+   }
 }
 
 @media(max-width:600px) {
@@ -89,5 +110,11 @@
       width: 70%;
       margin: 0 auto;
       border: 3px solid var(--green);
+   }
+   .slide img {
+      filter: blur(5px);
+   }
+   .slick-center img {
+      filter: blur(0);
    }
 }

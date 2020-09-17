@@ -86,8 +86,7 @@ header .container {
    min-height: 915px;
    background: url(../img/bg-home.jpg) center/cover fixed;
 }
-.container {
-}
+
 .home-container {
    flex-direction: column;
    justify-content: center;
@@ -155,8 +154,7 @@ header .container {
    left: 50%;
    transform: translateX(-25px);
 }
-.container {
-}
+
 .fav-container {
    flex-wrap: wrap;
    margin-top: 60px;
@@ -188,4 +186,75 @@ header .container {
    line-height: 22px;
    text-align: justify;
    color: var(--lightgrey);
+}
+/*Favorable style end*/
+
+/*Service style start*/
+
+.service {
+   display: flex;
+   background: #efeeee;
+}
+.service-slider {
+   width: 50%;
+   position: relative;
+}
+.slick-dots {
+   position: absolute;
+   width: 100%;
+   bottom: 40px;
+   left: 0;
+   display: flex;
+   justify-content: center;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+.slick-dots button {
+   font-size: 0;
+   border: none;
+   cursor: pointer;
+   width: 12px;
+   height: 12px;
+   background: #bdd1cf;
+   border-radius: 50%;
+   margin: 0 6px;
+   outline: none;
+}
+.slick-active button {
+   background: var(--white);
+}
+.slide {
+}
+.service-block {
+   width: 50%;
+   padding: 60px 0;
+}
+.section-title {
+}
+.container {
+}
+.service-container {
+   flex-wrap: wrap;
+   max-width: 800px;
+   margin: 60px auto 0;
+   padding: 0 20px 0 80px;
+}
+.service-item {
+   width: 48%;
+   text-align: center;
+   margin-bottom: 35px;
+   padding-right: 60px;
+}
+.service-item p {
+   font-size: 14px;
+   color: var(--lightgrey);
+   line-height: 24px;
+   text-align: justify;
+   margin: 25px 0 0;
+}
+.slick-list,
+.slick-track,
+.slide img {
+   height: 100%;
 }

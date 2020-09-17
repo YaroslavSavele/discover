@@ -20,6 +20,7 @@ body {
 .wrapper {
    max-width: var(--wrapWidch);
    margin: 0 auto;
+   overflow: hidden;
 }
 .container {
    max-width: var(--contWidch);

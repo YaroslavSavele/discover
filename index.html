@@ -16,6 +16,7 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
    <link rel="stylesheet" href="css/slick.css">
    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+   <link rel="stylesheet" href="css/aos.css">
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/media.css">
 </head>
@@ -24,8 +25,8 @@
    <div class="wrapper">
       <header>
          <div class="container">
-            <a href="#" class="logo">Discover</a>
-            <nav>
+            <a href="#" class="logo" data-aos="slide-right" data-aos-delay="150">Discover</a>
+            <nav data-aos="slide-left" data-aos-delay="150">
                <button class="mini-menu">Menu</button>
                <ul>
                   <li><a href="#">Home</a></li>
@@ -39,18 +40,18 @@
       </header>
       <section class="home">
          <div class="container home-container">
-            <h1 class="home-title">DISCOVER</h1>
-            <p class="home-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            <h1 class="home-title" data-aos="fade-up" data-aos-delay="50">DISCOVER</h1>
+            <p class="home-text" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                incididunt
                ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a href="#" class="home-link">booking tour</a>
+            <a href="#" class="home-link" data-aos="fade-up" data-aos-delay="100">booking tour</a>
          </div>
       </section>
       <section class="favorable">
          <h2 class="section-title">Favorable</h2>
          <div class="container fav-container">
-            <article class="fav-item">
+            <article class="fav-item" data-aos="flip-left" data-aos-delay="150">
                <img src="img/favorable1.jpg" alt="" class="fav-img">
                <div class="fav-text">
                   <h6>Sed ut perspiciatis unde omnis iste natus
@@ -60,7 +61,7 @@
                      perspiciatis unde omnis iste natus error sit.</p>
                </div>
             </article>
-            <article class="fav-item">
+            <article class="fav-item" data-aos="flip-left">
                <img src="img/favorable3.jpg" alt="" class="fav-img">
                <div class="fav-text">
                   <h6>Sed ut perspiciatis unde omnis iste natus
@@ -70,7 +71,7 @@
                      perspiciatis unde omnis iste natus error sit.</p>
                </div>
             </article>
-            <article class="fav-item">
+            <article class="fav-item" data-aos="flip-left">
                <img src="img/favorable2.jpg" alt="" class="fav-img">
                <div class="fav-text">
                   <h6>Sed ut perspiciatis unde omnis iste natus
@@ -80,7 +81,7 @@
                      perspiciatis unde omnis iste natus error sit.</p>
                </div>
             </article>
-            <article class="fav-item">
+            <article class="fav-item" data-aos="flip-left">
                <img src="img/favorable4.jpg" alt="" class="fav-img">
                <div class="fav-text">
                   <h6>Sed ut perspiciatis unde omnis iste natus
@@ -193,7 +194,7 @@
                </div>
                <div class="contact-item">
                   <img src="img/ic-phone.png" alt="">
-                  <a href="tel:+84 985 234 812">+84 985 234 812</a>
+                  <a href="tel:+84985234812">+84 985 234 812</a>
                </div>
                <div class="contact-item">
                   <img src="img/ic-mail.png" alt="">
@@ -211,7 +212,7 @@
                </div>
             </div>
             <div class="contact-form">
-               <form action="">
+               <form action="mail.php">
                   <input type="text" placeholder="Your name">
                   <input type="email" placeholder="Email">
                   <textarea placeholder="Message"></textarea>
@@ -225,6 +226,7 @@
    <script src="https://code.jquery.com/jquery.min.js"></script>
    <script src="js/slick.min.js"></script>
    <script src="js/jquery.fancybox.min.js"></script>
+   <script src="js/aos.js"></script>
    <script src="js/scripts.js"></script>
 </body>
 

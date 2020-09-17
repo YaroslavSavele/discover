@@ -1,4 +1,4 @@
-@media(max-width:1200px) {
+@media (max-width: 1200px) {
    .service {
       flex-direction: column;
    }
@@ -16,7 +16,7 @@
    }
 }
 
-@media(max-width:1000px) {
+@media (max-width: 1000px) {
    header .container {
       flex-direction: column;
       padding-top: 15px;
@@ -33,8 +33,6 @@
    }
    nav li {
       flex-grow: 1;
-      
-
    }
    nav a {
       text-align: center;
@@ -61,7 +59,7 @@
    }
 }
 
-@media(max-width:800px) {
+@media (max-width: 800px) {
    .mini-menu {
       display: block;
       background: var(--green);
@@ -104,9 +102,16 @@
    .tours-container a {
       flex: 0 49%;
    }
+   .contacts-container {
+      flex-direction: column;
+   }
+   .contact-info,
+   .contact-form {
+      width: 100%;
+   }
 }
 
-@media(max-width:600px) {
+@media (max-width: 600px) {
    .fav-item {
       flex-direction: column;
       align-items: center;

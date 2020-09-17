@@ -55,7 +55,9 @@
    }
    .fav-img {
       width: 30%;
-   
+   }
+   .tours-container a {
+      flex: 0 32%;
    }
 }
 
@@ -99,6 +101,9 @@
    .service-item {
       width: 100%;
    }
+   .tours-container a {
+      flex: 0 49%;
+   }
 }
 
 @media(max-width:600px) {
@@ -116,5 +121,8 @@
    }
    .slick-center img {
       filter: blur(0);
+   }
+   .tours-container a {
+      flex: 0 100%;
    }
 }
